@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.application.EmployeeManagementSystem.service.EmployeeService" 
+    project="EmployeeManagementSystem" 
+    file="/EmployeeManagementSystem/src/main/java/com/application/EmployeeManagementSystem/service/EmployeeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="240" x="419" y="321"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.application.EmployeeManagementSystem.repository.EmployeeRepository" 
+    project="EmployeeManagementSystem" 
+    file="/EmployeeManagementSystem/src/main/java/com/application/EmployeeManagementSystem/repository/EmployeeRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="114" width="292" x="758" y="339"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.application.EmployeeManagementSystem.model.Employee" 
+    project="EmployeeManagementSystem" 
+    file="/EmployeeManagementSystem/src/main/java/com/application/EmployeeManagementSystem/model/Employee.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="234" x="145" y="-52"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.application.EmployeeManagementSystem.controller.AppController" 
+    project="EmployeeManagementSystem" 
+    file="/EmployeeManagementSystem/src/main/java/com/application/EmployeeManagementSystem/controller/AppController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="251" x="419" y="-52"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.application.EmployeeManagementSystem.AppConfig" 
+    project="EmployeeManagementSystem" 
+    file="/EmployeeManagementSystem/src/main/java/com/application/EmployeeManagementSystem/AppConfig.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="206" x="710" y="-52"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.application.EmployeeManagementSystem.EmployeeManagementSystemApplication" 
+    project="EmployeeManagementSystem" 
+    file="/EmployeeManagementSystem/src/main/java/com/application/EmployeeManagementSystem/EmployeeManagementSystemApplication.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="259" x="956" y="-52"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="8" name="employeeService"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="11" name="repository"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
